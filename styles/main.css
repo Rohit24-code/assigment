@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#nav{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+    background-color: cadetblue;
+
+}
+
+#nav div ul{
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+    list-style: none;
+    text-align: center;
+}
+#nav div ul li:hover{
+    cursor: pointer;
+    color: red;
+}
